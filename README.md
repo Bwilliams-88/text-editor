@@ -6,4 +6,4 @@ With this assignment we covered PWAs (Progressive Web Apps) and was tasked with 
 
 - Repo: https://github.com/Bwilliams-88/text-editor
 
-- Heroku:
+- Heroku: https://brandons-text-editor-fb78c0228170.herokuapp.com/
