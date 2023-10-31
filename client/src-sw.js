@@ -24,8 +24,12 @@ warmStrategyCache({
   strategy: pageCache,
 });
 
+offlineFallback({
+  urls: ["./indexedDB.html"],
+  strategy: assetCache,
+});
+
 registerRoute(({ request }) => request.mode === "navigate", pageCache);
 
 // TODO: Implement asset caching
 registerRoute();
-precacheAndRoute();

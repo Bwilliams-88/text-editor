@@ -2,7 +2,7 @@
   "name": "JATE",
   "scripts": {
     "dev": "webpack-dev-server",
-    "build": "webpack --mode development",
+    "build": "webpack --mode production",
     "start": "webpack && webpack serve"
   },
   "author": "2U",
@@ -19,7 +19,6 @@
     "http-server": "^0.11.1",
     "mini-css-extract-plugin": "^2.7.6",
     "style-loader": "^3.2.1",
-    "webpack": "^5.51.1",
     "webpack-cli": "^4.8.0",
     "webpack-dev-server": "^4.0.0",
     "webpack-pwa-manifest": "^4.3.0",
